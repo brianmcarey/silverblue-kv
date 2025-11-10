@@ -1,4 +1,4 @@
-FROM quay.io/kubevirtci/bootstrap:v20231219-bf5e580
+FROM quay.io/kubevirtci/bootstrap:v20251022-6eb3ab1
 
 RUN dnf update -y && \
 	dnf -y install vim neovim golang htop kubernetes-client
