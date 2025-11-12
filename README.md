@@ -1,6 +1,6 @@
 # silverblue-kv
 
-Scripts to set up an ephemeral Kubevirt development environment on Fedora Silverblue or any other distro that has podman installed. This enviroment also includes a podman in podman setup which allows the user to run any containerized development flows.
+Scripts to set up an ephemeral Kubevirt development environment on Fedora Silverblue or any other distro that has podman installed. This environment also includes a podman in podman setup which allows the user to run any containerized development flows.
 
 These scripts require `sudo` privileges so please take some time to read them.
 
@@ -23,7 +23,7 @@ If you want to persist any of the data used by the podman in podman instance:
 ./up.sh -p /home/user/workspace/kubevirt
 ```
 
-To clean up the environment with the peristent podman data volume:
+To clean up the environment with the persistent podman data volume:
 ```
 ./down.sh -d
 ```
